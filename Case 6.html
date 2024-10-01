@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 6</title>
+    <style>
+       body{
+           width: 5000px;
+           background: url("assest/Car_Animation_Img/sky.jpg");
+           z-index: 1000;
+           overflow-y: hidden;
+           animation: background-animation 5s infinite;
+       }
+       #road{
+           background: url("assest/Car_Animation_Img/road.jpg");
+           width: 5000px;
+           height: 200px;
+           position: absolute;
+           bottom: 0;
+       }
+       #city{
+           background: url("assest/Car_Animation_Img/city.png");
+           width: 5000px;
+           height: 250px;
+           position: absolute;
+           top: 325px;
+       }
+       @keyframes background-animation {
+       }
+    </style>
+</head>
+<body>
+    <div id="road"></div>
+    <div id="city"></div>
+</body>
+</html>
